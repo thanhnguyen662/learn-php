@@ -28,6 +28,7 @@ class Calculator
 
    function divide()
    {
+      if ($this->number2 === 0) return "Syntax Error";
       return $this->number1 / $this->number2;
    }
 }
