@@ -3,6 +3,7 @@
 <head>
    <link rel="stylesheet" href="./ex1/style.css">
    <link rel="stylesheet" href="./ex2/circle.css">
+   <link rel="stylesheet" href="./ex3/style.css">
 </head>
 
 <body>
@@ -12,6 +13,9 @@
       ?>
       <?php
       require './ex2/circleForm.php';
+      ?>
+      <?php
+      require './ex3/replaceTextForm.php';
       ?>
    </div>
 </body>
