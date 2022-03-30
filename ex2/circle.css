@@ -1,0 +1,26 @@
+.ex2-container {
+   width: 100%;
+   display: inline-flex;
+   justify-content: center;
+}
+
+.ex2-wrap {
+   width: 250px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.ex2-form {
+   width: 100%;
+}
+.ex2-input-wrap {
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+.ex2-input {
+   margin-bottom: 10px;
+   width: 100%;
+   height: 30px;
+}
